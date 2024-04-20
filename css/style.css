@@ -1,0 +1,165 @@
+
+fieldset {
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.first_form__label, .second_form__label {
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 792px;
+    max-height: 823px;
+    margin: 0 auto;
+}
+
+.first_form {
+    width: 580px;
+    height: 620px;
+    display: block;
+}
+
+.second_form {
+    width: 580px;
+    height: 620px;
+    display:  inline-block;
+}
+
+.first_form__title, .second_form__title {
+    margin: 0;
+    padding: 40px 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_form__button, .second_form__button {
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+    border-radius: 6px;
+    background-color: #6D5BD0;
+    border-color: transparent;
+    font-weight: 600;
+    color: white;
+    height: 39px;
+    width: 200px;
+}
+
+.first_form__card, .second_form__card {
+    margin-bottom: 30px;
+}
+
+.first_form__label input {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 524px;
+    border-radius: 6px;
+    background-color: #F4F2FF;
+    border: transparent;
+    margin-top: 10px;
+}
+
+.second_form__label textarea, .first_form__label textarea  {
+    background-color: #F4F2FF;
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto; 
+    resize: none;
+    border-radius: 6px;
+    width: 524px;
+    height: 112px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.first_form__card input {
+    margin-bottom: 10px;
+}
+
+.second_form__card input {
+    margin-bottom: 10px;
+}
+
+.second_form__label input {
+    height: 40px;
+    width: 524px;
+    border-radius: 6px;
+    background-color: #F4F2FF;
+    border: transparent;
+    margin-top: 10px;
+}
+
+.first_form__label .discount_text {
+    height: 40px;
+    width: 474px;
+    background-color: #EEEEEE;
+    float: right;
+}
+
+.first_form__label .discount_checkbox {
+    background-color: #F4F2FF;
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.second_form__label .discount_text {
+    height: 40px;
+    width: 474px;
+    background-color: #F4F2FF;
+    display: inline-block;
+    float: right;
+}
+
+.second_form__label .discount_checkbox {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #F4F2FF;
+}
+
+
+.second_form__label .description {
+    width: 524px;
+    height: 112px;
+}
+
+.first_form__label .description {
+    width: 524px;
+    height: 112px;
+}
+
+input[type='checkbox']:checked {
+    background-image: url("../img/icons_check.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type='checkbox']{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    appearance:none;
+    border-radius:6px;
+}
